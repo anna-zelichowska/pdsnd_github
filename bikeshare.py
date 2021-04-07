@@ -254,15 +254,19 @@ def user_stats(df):
 # Runs all previous functions
 def main():
     while True:
+
+        # Filter and load the data to dataframe
         city, month, day = get_filters()
         df = load_data(city, month, day)
 
+        # Run statistics functions
         display_raw_data(df)
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
 
+        # Asks User whether script should be restarted
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
