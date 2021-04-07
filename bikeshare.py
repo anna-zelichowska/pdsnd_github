@@ -222,7 +222,7 @@ def user_stats(df):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
-    # Counts Users by the Type
+    # Counts Users by Type
     type_count = df['User Type'].value_counts()
     print("User type count:\n", type_count)
 
