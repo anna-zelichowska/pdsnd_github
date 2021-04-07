@@ -41,7 +41,7 @@ def get_filters():
         print("Oooops! There is no data to display for your input")
         day = input("For which day of the week would you like to display the data (all, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday)? ").lower()
 
-    print('-'*40)
+    print('-' * 40)
     return city, month, day
 
 
@@ -177,7 +177,7 @@ def station_stats(df):
 
     # Time used for calculations
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-' * 40)
 
 
 def trip_duration_stats(df):
@@ -197,15 +197,15 @@ def trip_duration_stats(df):
     # Displays total travel time in [days, hours:minutes:seconds] format
     total_travel_time = df['Trip Duration'].sum()
 
-    print("Total travel time: ", str(datetime.timedelta(seconds=int(total_travel_time))))
+    print("Total travel time: ", str(datetime.timedelta(seconds = int(total_travel_time))))
 
     # Displays average travel time in [days, hours:minutes:seconds] format
     mean_travel_time = df['Trip Duration'].mean()
-    print("Average travel time: ", str(datetime.timedelta(seconds=int(mean_travel_time))))
+    print("Average travel time: ", str(datetime.timedelta(seconds = int(mean_travel_time))))
 
     # Time used for calculations
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-' * 40)
 
 
 def user_stats(df):
@@ -249,7 +249,7 @@ def user_stats(df):
 
     # Time used for calculations
     print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print('-' * 40)
 
 # Runs all previous functions
 def main():
@@ -266,7 +266,6 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
-
 
 if __name__ == "__main__":
 	main()
