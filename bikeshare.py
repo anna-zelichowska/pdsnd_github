@@ -37,7 +37,7 @@ def get_filters():
     # Ask User for Day input
     day = input("For which day of the week would you like to display the data (all, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday)? ").lower()
 
-    while month not in ["january", "february", "march", "april", "may", "june", "all"]:
+    while day not in ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday", "all"]:
         print("Oooops! There is no data to display for your input")
         day = input("For which day of the week would you like to display the data (all, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday)? ").lower()
 
