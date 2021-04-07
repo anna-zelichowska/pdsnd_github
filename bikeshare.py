@@ -95,7 +95,11 @@ def display_raw_data(df):
     Returns:
         None
     """
+
+    # Row counter starting at 0, later incremented by 5 if User chooses to display more raw data
     row = 0
+
+    # Ask User whether raw data should be displayed
     raw_data = input("Would you like to display the raw data? Enter yes or no: ").lower()
 
     while raw_data not in ['yes', 'no']:
@@ -105,7 +109,7 @@ def display_raw_data(df):
     if raw_data == "yes":
         print(df.head())
 
-    # Display the next 5 rows if User selected yes
+    # Display next 5 rows of data if User selected yes
     while raw_data == 'yes':
         raw_data = input("Would you like to display the next 5 rows of data? Enter yes or no: ").lower()
         row += 5
