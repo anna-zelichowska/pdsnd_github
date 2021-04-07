@@ -13,6 +13,12 @@ chicago.csv - file with Chicago dataset
 washington.csv - file with Washington dataset
 new_york_city.csv - file with New York City dataset
 
+### Modules and packages used
+time
+datetime
+pandas
+numpy
+
 ### Credits
 [Udacity](https://udacity.com) - Programming for Data Science Nanodegree Program - knowledge base
 [Pandas documentation](https://pandas.pydata.org/) - pandas methods explained in detail
