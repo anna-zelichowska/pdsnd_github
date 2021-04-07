@@ -17,3 +17,6 @@ new_york_city.csv - file with New York City dataset
 [Udacity](https://udacity.com) - Programming for Data Science Nanodegree Program - knowledge base
 [Pandas documentation](https://pandas.pydata.org/) - pandas methods explained in detail
 [Stack Overflow](https://stackoverflow.com/) - helped to understand error messages
+
+### Author
+Anna Żelichowska - trying to learn coding since 2007
