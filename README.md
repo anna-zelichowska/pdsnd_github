@@ -1,17 +1,19 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+Project created in April 2021
 
 ### Project Title
-Replace the Project Title
+Bikeshare statistics
 
 ### Description
-Describe what your project is about and what it does
+The script facilitates a basic statistical analysis using pandas library to explore the data from bike share systems within 3 cities: Washington, New York City and Chicago. It displays the information on the most frequent times of travel, most popular stations and trips, duration of the trips and user statistics.
 
 ### Files used
-Include the files used
+chicago.csv - file with Chicago dataset
+washington.csv - file with Washington dataset
+new_york_city.csv - file with New York City dataset
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+[Udacity](https://udacity.com) - Programming for Data Science Nanodegree Program - knowledge base
+[Pandas documentation](https://pandas.pydata.org/) - pandas methods explained in detail
+[Stack Overflow](https://stackoverflow.com/) - helped to understand error messages
